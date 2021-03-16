@@ -1,0 +1,372 @@
+﻿body{
+    background-color:white;
+   }
+   
+.wrapper{
+width:100%;
+height:800px;
+margin-left:auto;
+margin-right:auto;
+
+
+
+}
+
+.boxtext{
+  width: 100%;
+  height:40px;
+  padding: 10px 12px;
+  margin-left:-8px;;  
+  top:-25px;;
+  color:white;
+  text-align:center;
+  background-color:black;
+    font-family:"City Bold",sans-serif;
+  font-size:small;
+  margin-top:-10px;
+  
+ 
+}
+
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+
+  
+  
+}
+
+.header.h2{
+color:black;
+font-size:50px;
+display:inline;
+text-align:center;
+padding:0px;
+margin-left:35%;
+
+	
+
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+
+.header a:hover {
+  color: black;
+  opacity:50%;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+  }
+  
+.navbar {
+  overflow: hidden;
+  background-color: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width:90%;
+  padding:2px;
+  }
+
+.navbar a {
+  float: left;
+  font-size: 4px;
+  color: white;
+  text-align: center;
+  padding: -2px -4px;
+  
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left:60px;
+  font-size:small;
+  padding:-100px 10px;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 3px;  
+  border: none;
+   outline: none;
+  color: black;
+  padding:-10px ;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+  
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 50%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .h3 {
+  padding:6px;
+  margin-left:50px;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:150x;
+  padding:10px 12px;
+  background-color: none;
+ }
+.column a {
+  float: none;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  display:block;
+  font-size:small;
+  text-align: left;
+  margin-left:50px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+ 
+ }    
+  
+.mainimg{
+	width:1380px;
+	height:540px;
+	margin-right:170px;
+	margin-left:-50px;
+	padding:20px;
+
+}
+.img2.column {
+  float: left;
+  width: 420px;
+  padding: 1px 8px;
+ 
+  
+}
+
+/* Clearfix (clear floats) */
+.img2.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.geeks { 
+            width: 415px; 
+            height: 410px; 
+            overflow: hidden; 
+            margin-left:13px; 
+            
+            
+        } 
+      
+        .geeks img { 
+            width: 100%; 
+            transition: 0.25s all ease-in-out; 
+        } 
+      
+        .geeks:hover img { 
+            transform: scale(1.1); 
+            opacity:70%;
+            
+            }
+                        
+ .bestseller{
+	
+font-size:xx-large;
+text-align:center;
+font-family:Arial Black,san-sefif;
+margin-top: 60px;
+margin-bottom:20px;
+
+}      
+
+  .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.photo.column {
+  float: left;
+  width: 22%;
+  padding: 20px;
+}
+
+.photo.img{
+	
+	width:300px;
+	height:300px;
+}
+
+/* Clearfix (clear floats) */
+.photo.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.photo.text{
+
+  color:black;
+  font-size:13px;
+  margin-left:83px;
+  margin-top:-7px;
+  }
+  
+  .photo.price{
+
+  color:black;
+  font-size:13px;
+  margin-left:-11px;
+  text-align:center;
+  margin-top:-35px;
+
+  }
+  
+  .img3.column {
+  float: left;
+  width: 650px;
+  padding: 40px 8px;
+ 
+  
+}
+
+/* Clearfix (clear floats) */
+.img3.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.geeks1 { 
+ width: 640px; 
+            height:610px;
+
+                  overflow: hidden; 
+            margin-left:-15px; 
+            padding:2px 20px;
+            
+            
+        } 
+      
+        .geeks1 img { 
+         width: 100%; 
+            
+            transition: 0.25s all ease-in-out; 
+        } 
+      
+        .geeks1:hover img { 
+            transform: scale(1.1); 
+            opacity:100%;
+            
+            }
+.newarrivals{
+	
+font-size:xx-large;
+text-align:center;
+font-family:Arial Black,san-sefif;
+margin-top:-10px;
+margin-bottom:5px;
+
+} 
+
+     
+
+
+.slider{
+  max-width: 1100px;
+  display:flex;
+  margin-left:90px;
+  
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 345px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  }
+.slider .card .content{
+  padding: 10px 10px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
